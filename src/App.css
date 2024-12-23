@@ -1,0 +1,16 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+}
+
+p {
+  /* color: rgb(5, 4, 4); */
+}
+
+.card {
+  background-color: blue;
+  color: white;
+  padding: 2rem;
+  margin-top: 2rem;
+}
