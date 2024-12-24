@@ -4,13 +4,21 @@
   /* padding: 2rem; */
 }
 
-p {
-  /* color: rgb(5, 4, 4); */
-}
-
 .card {
-  background-color: blue;
-  color: white;
+  background-color: rgb(255, 255, 255);
+  color: rgb(8, 9, 12);
   padding: 2rem;
   margin-top: 2rem;
+  border: 1px solid grey;
+  /* width: 500px;
+  display: grid; */
+}
+
+.card p {
+  width: auto;
+}
+
+.control_section {
+  display: flex;
+  justify-content: space-between;
 }
