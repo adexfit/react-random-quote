@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import twitterLogo from "../assets/twitter.png";
+import "../../src/App.css";
 const Quote = () => {
   const [quoteData, setQuoteData] = useState("");
   const [fetchNew, setFetchNew] = useState(false);
@@ -28,7 +29,7 @@ const Quote = () => {
       <p id="author">{quoteData.author}</p>
       <div className="control_section">
         <img src={twitterLogo} alt="Twitter Logo" height={30} width={30} />
-        <button id="new-quote" onClick={handleClick}>
+        <button className="mybtn" id="new-quote" onClick={handleClick}>
           Next Quote
         </button>
       </div>

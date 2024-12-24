@@ -10,15 +10,27 @@
   padding: 2rem;
   margin-top: 2rem;
   border: 1px solid grey;
-  /* width: 500px;
-  display: grid; */
+  width: 30rem;
+  display: grid;
 }
 
 .card p {
-  width: auto;
+  width: 100%;
 }
 
 .control_section {
   display: flex;
   justify-content: space-between;
 }
+
+.mybtn {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 0.5rem;
+}
+
+/* button {
+  outline: auto;
+} */
